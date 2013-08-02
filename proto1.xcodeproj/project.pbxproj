@@ -281,6 +281,7 @@
 		026B754B17818E6200810CD3 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026B754A17818E6200810CD3 /* AppDelegate.cpp */; };
 		026B754E17818E6200810CD3 /* Action2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026B754D17818E6200810CD3 /* Action2.cpp */; };
 		026B79161782EDB700810CD3 /* Action1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026B79141782EDB700810CD3 /* Action1.cpp */; };
+		AA67BC6617ABBCAB00386676 /* Controller.png in Resources */ = {isa = PBXBuildFile; fileRef = AA67BC6517ABBCAB00386676 /* Controller.png */; };
 		AA96DD0D1782D87900152981 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA96DD0B1782D87900152981 /* Controller.cpp */; };
 		BA8E542A1781C7DA00704C52 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026B6DFD178187D400810CD3 /* QuartzCore.framework */; };
 		BA8E542B1781C7DA00704C52 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026B6DFF178187D400810CD3 /* OpenGLES.framework */; };
@@ -554,7 +555,6 @@
 		BA8E57B81781C7E100704C52 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = BA8E57B71781C7E100704C52 /* cpVect.c */; };
 		BA8E57C01781C7E100704C52 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E57BF1781C7E100704C52 /* libwebsockets.a */; };
 		BA8E57C61781C7E100704C52 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA8E57C51781C7E100704C52 /* AppDelegate.cpp */; };
-		BA8E57C91781C7E100704C52 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA8E57C81781C7E100704C52 /* HelloWorldScene.cpp */; };
 		DB18FDAC178581C100F514A2 /* action10001.png in Resources */ = {isa = PBXBuildFile; fileRef = DB18FDA5178581C100F514A2 /* action10001.png */; };
 		DB18FDAD178581C100F514A2 /* action10002.png in Resources */ = {isa = PBXBuildFile; fileRef = DB18FDA6178581C100F514A2 /* action10002.png */; };
 		DB18FDAE178581C100F514A2 /* action10003.png in Resources */ = {isa = PBXBuildFile; fileRef = DB18FDA7178581C100F514A2 /* action10003.png */; };
@@ -1185,6 +1185,7 @@
 		026B754D17818E6200810CD3 /* Action2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Action2.cpp; path = Classes/Action2.cpp; sourceTree = "<group>"; };
 		026B79141782EDB700810CD3 /* Action1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Action1.cpp; path = Classes/Action1.cpp; sourceTree = "<group>"; };
 		026B79151782EDB700810CD3 /* Action1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Action1.h; path = Classes/Action1.h; sourceTree = "<group>"; };
+		AA67BC6517ABBCAB00386676 /* Controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Controller.png; path = Resources/Controller.png; sourceTree = "<group>"; };
 		AA96DD0B1782D87900152981 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = Classes/Controller.cpp; sourceTree = "<group>"; };
 		AA96DD0C1782D87900152981 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = Classes/Controller.h; sourceTree = "<group>"; };
 		BA8E54291781C7DA00704C52 /* controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1767,8 +1768,6 @@
 		BA8E57C21781C7E100704C52 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		BA8E57C41781C7E100704C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		BA8E57C51781C7E100704C52 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		BA8E57C71781C7E100704C52 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		BA8E57C81781C7E100704C52 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		DB18FDA5178581C100F514A2 /* action10001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action10001.png; sourceTree = "<group>"; };
 		DB18FDA6178581C100F514A2 /* action10002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action10002.png; sourceTree = "<group>"; };
 		DB18FDA7178581C100F514A2 /* action10003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action10003.png; sourceTree = "<group>"; };
@@ -3070,6 +3069,7 @@
 		BA8E54331781C7DA00704C52 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA67BC6517ABBCAB00386676 /* Controller.png */,
 				BA8E54341781C7DA00704C52 /* CloseNormal.png */,
 				BA8E54361781C7DA00704C52 /* CloseSelected.png */,
 				BA8E54381781C7DA00704C52 /* Default.png */,
@@ -4221,8 +4221,6 @@
 			children = (
 				BA8E57C41781C7E100704C52 /* AppDelegate.h */,
 				BA8E57C51781C7E100704C52 /* AppDelegate.cpp */,
-				BA8E57C71781C7E100704C52 /* HelloWorldScene.h */,
-				BA8E57C81781C7E100704C52 /* HelloWorldScene.cpp */,
 				AA96DD0B1782D87900152981 /* Controller.cpp */,
 				AA96DD0C1782D87900152981 /* Controller.h */,
 			);
@@ -4424,6 +4422,7 @@
 				BA8E54491781C7DA00704C52 /* iTunesArtwork in Resources */,
 				BA8E54E81781C7DC00704C52 /* ChangeLog in Resources */,
 				BA8E565C1781C7DF00704C52 /* project.pbxproj in Resources */,
+				AA67BC6617ABBCAB00386676 /* Controller.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4939,7 +4938,6 @@
 				BA8E57B61781C7E100704C52 /* cpSweep1D.c in Sources */,
 				BA8E57B81781C7E100704C52 /* cpVect.c in Sources */,
 				BA8E57C61781C7E100704C52 /* AppDelegate.cpp in Sources */,
-				BA8E57C91781C7E100704C52 /* HelloWorldScene.cpp in Sources */,
 				AA96DD0D1782D87900152981 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
